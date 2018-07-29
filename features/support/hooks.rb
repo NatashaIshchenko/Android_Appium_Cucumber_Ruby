@@ -1,11 +1,11 @@
 Before do
-  puts("Before scenario")
+  puts("Before hooks")
   #запускаем драйвер Аппиума
   $driver.start_driver
 end
 
 After do
-  puts("After scenario")
+  puts("After hooks")
   #убиваем драйвер Аппиума
   $driver.driver_quit
 end
